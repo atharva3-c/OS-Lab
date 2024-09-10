@@ -1,0 +1,59 @@
+//ignore stupid filenames
+
+a) ls *.txt>>answersLAB11.txt
+
+answersLAB1.txt
+by.txt
+hohohoh.txt
+l2test.txt
+lab1output.txt
+mymy.txt
+rtext.txt
+testfile1.txt
+
+
+b) ls *[0-9]* >>answersLAB1.txt
+
+answersLAB1.txt
+jok1er.c
+l2test.txt
+lab1output.txt
+testfile1.txt
+
+c) ls ????* >>answersLAB1.txt
+
+answersLAB1.txt
+a.out
+by.txt
+frog.c
+hi.cpp
+hohohoh.txt
+huh.c
+jojo.py
+jok1er.c
+l2test.txt
+lab1output.txt
+mymy.sh
+mymy.txt
+mypy.py
+rain.c
+rtext.txt
+testfile1.txt
+
+d) ls [^aeiou]* >>answersLAB1.txt
+
+by.txt
+frog.c
+hi.cpp
+hohohoh.txt
+huh.c
+jojo.py
+jok1er.c
+l2test.txt
+lab1output.txt
+mymy.sh
+mymy.txt
+mypy.py
+rain.c
+rtext.txt
+testfile1.txt
